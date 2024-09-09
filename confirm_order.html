@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurguerIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="app-bar" id="header-app-bar">
+        <a href="index.html">
+            <i class='bx bx-home'></i>
+        </a>
+         
+        <div class="app-logo">
+            <img src="assets/burgerio_logo.png" alt="BurguerIO Logomarca">
+        </div>
+        <i class='bx bx-cart'></i>
+    </header>
+
+    <main class="home-confirm">
+        <h1> Confirme seu Pedido</h1>
+        
+          <section class="order-itens">
+
+            <div class="order-card">
+                <div class="card-image">
+                    <img id="item-image" src="assets/x-bacon.jpg" alt="">
+                </div>
+
+                <div class="card-details">
+                    <h2 id="item-name">X-Bacon</h2>
+                    <h3 id="item-price">R$ 12,90</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                </div>
+            </div>
+
+            <a href="#" class="button-confirm" onclick="openWhatsApp()">
+              <i class='bx bxl-whatsapp'></i> Fazer Pedido  
+            </a>
+
+          </section>
+        
+    </main>
+    
+    <script src="scripts.js">
+        // const urlParamsConfirm = new URLSearchParams(window.location.search);
+
+        // const confirmName = urlParamsConfirm.get('name');
+        // const confirmPrice = urlParamsConfirm.get('price');
+        // const confirmImage = urlParamsConfirm.get('image');
+
+        // const nameConfirm = document.querySelector('#item-name');
+        // const priceConfirm = document.querySelector('#item-price');
+        // const imageConfirm = document.querySelector('#item-image');
+
+        // priceConfirm.textContent = 'R$ ' + confirmPrice;
+        // nameConfirm.textContent = confirmName;
+        // imageConfirm.src = 'assets/' + confirmImage;
+
+    </script>
+
+</body>
+</html>
